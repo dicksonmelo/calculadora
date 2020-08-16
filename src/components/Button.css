@@ -13,6 +13,19 @@
 }
 
 
+.button.operation {
+   background-color: rgb(235, 141, 0);
+   color: #fff;
+}
+
+.button.operation:hover {
+   background-color: orange;
+}
+
+.button.operation:active {
+   background-color: rgb(230, 149, 0);
+}
+
 .button:hover {
    background-color: rgb(255, 255, 255);
 }
@@ -28,9 +41,4 @@
 
 .button.triple {
    grid-column: span 3;
-}
-
-.button.operation {
-   background-color: #fa8231;
-   color: #fff;
 }
